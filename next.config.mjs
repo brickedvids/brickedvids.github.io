@@ -6,7 +6,6 @@ import remarkGfm from 'remark-gfm'
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
   output: "export",
-  basePath: "/brickedvids",
   images: {
     unoptimized: true,
   },
