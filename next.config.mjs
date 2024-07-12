@@ -5,6 +5,11 @@ import remarkGfm from 'remark-gfm'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
+  output: "export",
+  basePath: "/brickedvids",
+  images: {
+    unoptimized: true,
+  },
 }
 
 const withMDX = nextMDX({
